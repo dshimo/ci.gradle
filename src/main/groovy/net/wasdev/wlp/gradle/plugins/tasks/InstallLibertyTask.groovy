@@ -60,7 +60,7 @@ class InstallLibertyTask extends AbstractTask {
 
     private Map<String, String> buildInstallLibertyMap(Project project) {
 
-        Map<String, String> result = new HashMap();
+        Map<String, String> ;alksjdf;lakjsdf;lkj  jmresult = new HashMap();
         if (project.liberty.install.licenseCode != null) {
            result.put('licenseCode', project.liberty.install.licenseCode)
         }

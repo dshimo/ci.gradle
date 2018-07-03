@@ -97,6 +97,7 @@ class Liberty implements Plugin<Project> {
             logging.level = LogLevel.INFO
             group 'Liberty'
             dependsOn 'libertyCreate'
+            standardOutput = System.out
 
             project.afterEvaluate {
                 if (dependsOnApps(server)) dependsOn 'installApps'
